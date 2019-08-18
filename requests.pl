@@ -28,9 +28,12 @@ X = bite Y = [man]
 ;
 Prob = 0.01008
 X = bite Y = [dogs]
-;Prob = 0.04704
+;
+Prob = 0.04704
 X = bite Y = [a, man]
-Etc
+
+etc
+
 ?- utterance(Prob, X).
 Prob = 0.03
 X = [man, likes]
@@ -46,4 +49,6 @@ X = [man, likes, dogs]
 ;
 Prob = 0.0084
 X = [man, likes, a, man]
+
 etc
+
